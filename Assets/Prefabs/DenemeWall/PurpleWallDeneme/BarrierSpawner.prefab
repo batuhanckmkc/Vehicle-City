@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5427868871493258372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5427868871493258374}
+  - component: {fileID: 5427868871493258375}
+  m_Layer: 0
+  m_Name: BarrierSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5427868871493258374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5427868871493258372}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5427868871493258375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5427868871493258372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc1e42e5ad9d254db222dc52f7b7ae3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicleController: {fileID: 0}
+  floatingCoins: {fileID: 8651049804318765354, guid: 8e8a2f00a0bd9c348a8cd9dcfd942d08, type: 3}
+  barrier:
+  - {fileID: 5563186775735069432, guid: cb92eec8b98c45149a9de04e91e3e7a5, type: 3}
+  - {fileID: 4883298254915218370, guid: cd27276bbde9ef144ab53a40fcfbaa9f, type: 3}
+  - {fileID: 8171253709078682424, guid: 0d0ca2dc5878004488f6053f85e94141, type: 3}
+  - {fileID: 5563186775735069432, guid: cb92eec8b98c45149a9de04e91e3e7a5, type: 3}
+  - {fileID: 8171253709078682424, guid: 0d0ca2dc5878004488f6053f85e94141, type: 3}
+  vehicle: {fileID: 0}
+  temp: 0
